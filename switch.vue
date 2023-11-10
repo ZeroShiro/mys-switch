@@ -14,40 +14,47 @@
 <script>
 export default {
   props: {
+    // v-model 值
     value: {
       type: Boolean,
       default: false,
     },
+    // 是否可点击
     disabled: {
       type: Boolean,
       default: false,
     },
+    // 开启文字展示
     onText: {
       type: String,
       default: '',
     },
+    // 关闭文字展示
     offText: {
       type: String,
       default: '',
     },
+    // 缩放大小 
     scale: {
       typeof: Number,
       default: 1,
     },
-    // 默认背景颜色
+    // 默认关闭背景颜色
     offBgColor: {
       type: String,
       default: '#CCCCCC',
     },
+    // 默认开启背景颜色
     onBgColor: {
       type: String,
       default: '#3875F6',
     },
-    // 默认文字色
+    // 默认关闭文字色
     offTextColor: {
       type: String,
       default: '#FFFFFF',
     },
+    // 默认开启文字色
     onTextColor: {
       type: String,
       default: '#FFFFFF',
